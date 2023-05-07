@@ -9,18 +9,23 @@ function App() {
 
   return (
     <div className="app">
-      <div className="app__sidebar">
-        <Sidebar/>
-      </div>
       <div className="app__navbar">
         <Navbar/>
-        <Routes>
+      </div>
+      <div className="app__body">
+       <div className="app__sidebar">
+       <Sidebar/>
+       </div>
+       <div className="app__main">
+       <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/portfolio' element={<Portfolio/>}/>
           <Route path='/' element={<Home/>}/>
         </Routes>
+       </div>
       </div>
+      <Footer/>
     </div>
   )
 }

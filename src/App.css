@@ -1,5 +1,56 @@
+/* .app{
+  position:relative ;sm:-8 p-4 bg-[#13131a] min-h-screen flex flex-row
+}
+sm:flex hidden mr-10 relative*/
 
+.app{
+  position: relative;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+border: 2px solid red;
+}
+.app__body{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
 
+/* flex-1.max-sm:w-full.max-w[1280px] mx-auto sm:pr-5 */
+.app__navbar{
+display: flex;
+justify-content: center;
+max-width: 1500px;
+margin: 0 auto;
+border-radius: 20px;
+}
+.app__sidebar{ 
+  width: 80px;
+  height: 400px;
+  position: relative;
+margin-right: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+margin-top: 30px;
+} 
+
+.app__main{
+  display: flex;
+  justify-content: center;
+  
+
+  }
+@media (max-width: 568px) {
+ .app__sidebar{
+  display: none;
+ }
+ .app__navbar{
+  width: 100%;
+  padding-right: 5px;
+ }
+}
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -15,10 +66,4 @@
   }
 }
 
-.card {
-  padding: 2em;
-}
 
-.read-the-docs {
-  color: #888;
-}
