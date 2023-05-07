@@ -9,7 +9,6 @@ sm:flex hidden mr-10 relative*/
   display: flex;
   flex-direction: column;
 justify-content: center;
-border: 2px solid red;
 }
 .app__body{
   margin-top: 30px;
@@ -22,7 +21,7 @@ border: 2px solid red;
 .app__navbar{
 display: flex;
 justify-content: center;
-max-width: 1500px;
+width: 100%;
 margin: 0 auto;
 border-radius: 20px;
 }
