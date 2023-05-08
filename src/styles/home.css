@@ -81,16 +81,20 @@ border: 0.5px solid rgba(255, 255, 255,0.1);
     justify-content: space-evenly;
     align-items: flex-start;
     padding: 30px 20px;
-    border: 0.5px solid rgba(255, 255, 255,0.1);
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
-   
+
 }
 .home__skillsType{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 0.5px solid rgba(255, 255, 255,0.1);
+    flex: 1;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 10px;
 }
 .home__skillsHeaderTitle,
 .home__skillsTypeHeader{
@@ -120,6 +124,7 @@ border: 0.5px solid rgba(255, 255, 255,0.1);
      padding:  15px;
      transition: border ease 0.50s;
      margin: 5px;
+     flex: 1;
    
 }
 

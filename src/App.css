@@ -13,20 +13,22 @@ sm:flex hidden mr-10 relative*/
 .app__body {
   margin-top: 30px;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
+  /* border: 0.5px solid rgba(49, 146, 11, 0.8); */
 }
 
 .app__sidebar {
   /* border: 0.5px solid rgba(255, 255, 255, 0.1); */
-  width: 130px;
+  width: 20%;
   height: 420px;
   position: fixed;
+  align-self: flex-start;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
-  top: 200;
+   top: 400;
   left: 0;
-  z-index: 10;
+  /* z-index: 10; */
 }
 
 /* flex-1.max-sm:w-full.max-w[1280px] mx-auto sm:pr-5 */
@@ -40,9 +42,11 @@ sm:flex hidden mr-10 relative*/
 
 
 .app__main {
-  flex: 0.9;
+  width: 80%;
   display: flex;
   justify-content: center;
+  align-self: flex-end;
+  margin-left: 150px;
 
 
 
@@ -52,6 +56,11 @@ sm:flex hidden mr-10 relative*/
   .app__sidebar {
     display: none;
   }
+  
+.app__main {
+  width: 100%;
+  margin-left:0;
+}
 
   .app__navbar {
     width: 100%;
