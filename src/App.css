@@ -8,7 +8,6 @@ sm:flex hidden mr-10 relative*/
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 0.5px solid rgba(49, 146, 11, 0.8);
 }
 
 .app__body {

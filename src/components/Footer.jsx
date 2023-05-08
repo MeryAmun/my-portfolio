@@ -1,4 +1,4 @@
-import React from "react";
+
 import "../styles/footer.css";
 import { sidebarInfo } from "../data/data";
 import { Link } from "react-router-dom";

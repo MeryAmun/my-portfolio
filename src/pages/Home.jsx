@@ -1,4 +1,4 @@
-import React from "react";
+
 import { me } from "../assets";
 import "../styles/home.css";
 import { backendSkills, frontEndSkills } from "../data/data";

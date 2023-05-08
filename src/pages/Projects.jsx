@@ -1,4 +1,4 @@
-import React from "react";
+
 import { projectsData } from "../data/data";
 import "../styles/projects.css";
 import Spin from "react-reveal/Spin";
