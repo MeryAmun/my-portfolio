@@ -21,6 +21,7 @@ const Sidebar = () => {
         <Spin></Spin>
         <a href={cv} download className="sidebar__item" rel="noreferrer">
           <FaDownload color="#52bbe5" size={35} />
+          <h5 className="sidebar__itemTitle">Resume</h5>
         </a>
       </div>
     </div>
