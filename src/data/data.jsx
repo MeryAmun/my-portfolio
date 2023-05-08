@@ -1,4 +1,4 @@
-import { RiWhatsappLine } from 'react-icons/ri'
+
 import { FaGithubSquare } from 'react-icons/fa'
 import { RxLinkedinLogo } from 'react-icons/rx'
 import { BsDiscord } from 'react-icons/bs'
@@ -15,6 +15,7 @@ import { SiWeb3Dotjs} from 'react-icons/si'
 import { SiFirebase} from 'react-icons/si'
 import { SiExpress} from 'react-icons/si'
 import { SiSolidity} from 'react-icons/si'
+import { SlSocialSkype} from 'react-icons/sl'
 import { SiCypress} from 'react-icons/si'
 import { FaNodeJs} from 'react-icons/fa'
 import { FaVuejs} from 'react-icons/fa'
@@ -22,7 +23,7 @@ import { DiMongodb } from 'react-icons/di'
 import { DiMysql } from 'react-icons/di'
 import { FaLaravel} from 'react-icons/fa'
 import { SiAwsamplify} from 'react-icons/si'
-import ReactWhatsapp from "react-whatsapp";
+
 
 
 
@@ -361,15 +362,13 @@ export const projectsData = [
   export const sidebarInfo = [
     {
       title:'LinkedIn',
-      icon: <RiWhatsappLine color='#52bbe5' size={35}>
-      <ReactWhatsapp number="+237677972126" message="Hello Blacky!!!" />
-      </RiWhatsappLine>,
+      icon:<RxLinkedinLogo color='#52bbe5' size={35}/>,
       link:'https://www.linkedin.com/in/chebesi-awah-b891331ab/'
     },
     {
-      title:'LinkedIn',
-      icon:<RxLinkedinLogo color='#52bbe5' size={35}/>,
-      link:'https://www.linkedin.com/in/chebesi-awah-b891331ab/'
+      title:'Skype',
+      icon:<SlSocialSkype color='#52bbe5' size={35}/>,
+      link:'live:.cid.e664243f1e491e91'
     },
     
     {
