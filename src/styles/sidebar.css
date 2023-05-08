@@ -5,9 +5,25 @@
   margin: 40px 20px;
 }
 
+.sidebar__item:hover{
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.2) !important;
+  /* animation: icon-spin 0.15s 1 ease-in-out; */
+}
+
+
 @media (max-width: 600px) {
   .sidebar {
     display: none;
   }
 
+}
+
+@keyframes icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

@@ -40,5 +40,6 @@ export { default as stock39 }   from './images/tesla.png'
 export { default as stock40 }   from './images/altar.jpg'
 export { default as stock41 }   from './images/google2.jpeg'
 export { default as stock42 }   from './images/ethereum.jpg'
+export { default as loader }   from './images/loader.gif'
 
 

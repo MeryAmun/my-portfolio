@@ -1,13 +1,27 @@
+import React,{ useState, useEffect }  from "react";
 import "./App.css";
-import { Navbar, Sidebar, Footer } from "./components";
+import { Navbar, Sidebar, Footer, Loader } from "./components";
 import { Routes, Route } from "react-router-dom";
 import { Home, Projects } from "./pages";
 import Slide from "react-reveal/Slide";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+   setInterval(() => {
+setLoading(false)
+   }, 5000)
+  })
+  
   return (
     <div className="app">
-      <div className="app__navbar">
+      {
+        loading ? (
+        <Loader />
+        ) : (
+          <>
+          <div className="app__navbar">
         <Navbar />
       </div>
       <div className="app__body">
@@ -23,7 +37,9 @@ function App() {
           </Routes>
         </div>
       </div>
-      <Footer />
+      <Footer /></>
+        )
+      }
     </div>
   );
 }
