@@ -1,6 +1,6 @@
 import { loader } from "../assets"
 
-const Loader = ({count}) => 
+const Loader = () => 
  (
     <div className="loader" style={{
         display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'
