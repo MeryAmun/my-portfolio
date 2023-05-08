@@ -21,6 +21,8 @@ import { FaVuejs} from 'react-icons/fa'
 import { DiMongodb } from 'react-icons/di'
 import { DiMysql } from 'react-icons/di'
 import { FaLaravel} from 'react-icons/fa'
+import ReactWhatsapp from "react-whatsapp";
+
 
 
 
@@ -69,11 +71,11 @@ import {
   stock41,
   stock42
   } from '../assets'
-import { cv } from '../assets'
 
 
 
-export const resources = [
+
+export const projectsData = [
   {
     image: stock42,
     github:'https://github.com/MeryAmun/krypto-web3.0',
@@ -356,6 +358,13 @@ export const resources = [
   ]
 
   export const sidebarInfo = [
+    {
+      title:'LinkedIn',
+      icon: <RiWhatsappLine color='#52bbe5' size={35}>
+      <ReactWhatsapp number="+237677972126" message="Hello Blacky!!!" />
+      </RiWhatsappLine>,
+      link:'https://www.linkedin.com/in/chebesi-awah-b891331ab/'
+    },
     {
       title:'LinkedIn',
       icon:<RxLinkedinLogo color='#52bbe5' size={35}/>,
