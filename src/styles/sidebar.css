@@ -1,15 +1,13 @@
-
-
 .sidebar__item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 20px;
 }
 
 @media (max-width: 600px) {
-    .sidebar {
-      display: none;
-    }
+  .sidebar {
+    display: none;
+  }
 
 }

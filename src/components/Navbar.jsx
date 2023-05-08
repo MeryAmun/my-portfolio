@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import "../styles/navbar.css";
 
 const Navbar = () => {
-
   var navbar = document.querySelector(".navbar");
 
   window.onscroll = function () {
@@ -23,7 +22,6 @@ const Navbar = () => {
         <div className="navbar__link">
           <Link to="/projects">Projects</Link>
         </div>
-
       </div>
 
       {/* ===================FOR SMALL SCREENS   ================================ */}

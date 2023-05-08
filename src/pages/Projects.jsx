@@ -1,20 +1,22 @@
 import React from "react";
 import { projectsData } from "../data/data";
-import LightSpeed from "react-reveal/LightSpeed";
 import "../styles/projects.css";
+import Spin from "react-reveal/Spin";
 
 const Portfolio = () => {
   return (
     <div className="projects">
       <div className="projects__Box">
         <div className="projects__Header">
+          <Spin>
           <h3 className="projects__HeaderTitle">
             My Recent <br /> Projects
           </h3>
+          </Spin>
         </div>
         <div className="container projects__container">
           {projectsData.map((resource, index) => (
-            <LightSpeed right key={index}>
+            <Spin right key={index}>
               <article className="project__item">
                 <div className="project__item-image">
                   <img src={resource.image} alt="" />
@@ -40,7 +42,7 @@ const Portfolio = () => {
                 </div>
                 <p className="text-light">{resource.description}</p>
               </article>
-            </LightSpeed>
+            </Spin>
           ))}
         </div>
       </div>
