@@ -5,8 +5,8 @@ import { sidebarInfo } from "../data/data.jsx";
 import { cv } from "../assets";
 import { FaDownload } from "react-icons/fa";
 import Spin from "react-reveal/Spin";
-// import { RiWhatsappLine } from 'react-icons/ri'
-// import ReactWhatsapp from "react-whatsapp";
+//  import { RiWhatsappLine } from 'react-icons/ri'
+//  import ReactWhatsapp from "react-whatsapp";
 
 const Sidebar = () => {
   return (
@@ -23,7 +23,7 @@ const Sidebar = () => {
 {/* <Spin>
   <div className="sidebar__item">
   <RiWhatsappLine color='#52bbe5' size={35}/>
-<ReactWhatsapp number="+237677972126" message="Hello Chebesi!!!" />
+<ReactWhatsapp number="+237677972126" message="Hello Chebesi!!!" color='#52bbe5' size={35}/>
 <h5 className="sidebar__itemTitle">WhatsApp</h5>
   </div>
 </Spin> */}

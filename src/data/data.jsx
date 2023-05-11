@@ -1,7 +1,6 @@
 
 import { FaGithubSquare } from 'react-icons/fa'
 import { RxLinkedinLogo } from 'react-icons/rx'
-import { BsDiscord } from 'react-icons/bs'
 import { AiFillHtml5 } from 'react-icons/ai'
 import { SiCss3 } from 'react-icons/si'
 import { SiJavascript } from 'react-icons/si'
@@ -23,6 +22,7 @@ import { DiMongodb } from 'react-icons/di'
 import { DiMysql } from 'react-icons/di'
 import { FaLaravel} from 'react-icons/fa'
 import { SiAwsamplify} from 'react-icons/si'
+// import ReactWhatsapp from 'react-whatsapp';
 
 
 
@@ -376,11 +376,11 @@ export const projectsData = [
       icon:<FaGithubSquare color='#52bbe5' size={35}/>,
       link:'https://github.com/MeryAmun/'
     },
-    {
-      title:'Resume',
-      icon:<BsDiscord color='#52bbe5' size={35}/>,
-      link:'https://discord.com/channels/@me/1104400315559714906'
-    },
+    // {
+    //   title:'Whatsapp',
+    //   icon:<ReactWhatsapp number="+237677972126" message="Hello Chebesi" color='#52bbe5' size={35}/>,
+      
+    // },
   ]
   
 

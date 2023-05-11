@@ -4,7 +4,6 @@
 sm:flex hidden mr-10 relative*/
 
 .app {
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -77,6 +76,13 @@ sm:flex hidden mr-10 relative*/
     width: 100%;
     margin-left: 0;
   }
+}
+@media (min-width: 360px) {
+  .app {
+   overflow: hidden;
+  }
+
+ 
 }
 
 @keyframes logo-spin {
