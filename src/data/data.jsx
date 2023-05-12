@@ -71,13 +71,21 @@ import {
   stock39,
   stock40,
   stock41,
-  stock42
+  stock42,
+  crowdfunding
   } from '../assets'
 
 
 
 
 export const projectsData = [
+  {
+    image: crowdfunding,
+    github:'https://github.com/MeryAmun/crowdfunding',
+    live: 'https://crowdfunding-75c4f.web.app/',
+    title: 'React, Context API,TailwindCss,ThirdWeb,Hardhat, Solidity',
+    description: 'Web3.0 Blockchain Crowdfunding Platform | Solidity,Ethereum Smart Contracts, Crypto',
+  },
   {
     image: stock42,
     github:'https://github.com/MeryAmun/krypto-web3.0',
