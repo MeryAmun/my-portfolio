@@ -1,5 +1,3 @@
-
-import { me } from "../assets";
 import "../styles/home.css";
 import { backendSkills, frontEndSkills } from "../data/data";
 import Slide from "react-reveal/Slide";
@@ -17,11 +15,6 @@ const Home = () => {
         </Tada>
       </div>
       <div className="home__body">
-        <Spin>
-          <div className="home__image">
-            <img src={me} alt="" />
-          </div>
-        </Spin>
         <Slide bottom>
           <div className="home__about">
             <p className="home__aboutParagraph">
