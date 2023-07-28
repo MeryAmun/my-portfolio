@@ -106,10 +106,17 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.whatsappPost__button{
+  background-color: #242424;
+   color: #06e651;
+   text-decoration: none;
+   border: none;
+   outline: none;
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #242424;
   }
 
   a:hover {

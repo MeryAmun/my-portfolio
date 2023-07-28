@@ -1,4 +1,4 @@
-
+import { useState, useEffect } from "react";
 import "../styles/footer.css";
 import { sidebarInfo } from "../data/data";
 import { Link } from "react-router-dom";
@@ -6,10 +6,17 @@ import { cv } from "../assets";
 import { FaDownload } from "react-icons/fa";
 import Slide from "react-reveal/Slide";
 import Spin from "react-reveal/Spin";
-// import { RiWhatsappLine } from 'react-icons/ri'
-// import ReactWhatsapp from "react-whatsapp";
+import { RiWhatsappLine } from "react-icons/ri";
+import ReactWhatsapp from "react-whatsapp";
 
 const Footer = () => {
+  const [number, setNumber] = useState("237677972126");
+
+  useEffect(() => {
+    if (number !== "237677972126") {
+      setNumber(null);
+    }
+  }, [number]);
   return (
     <div className="footer">
       <div className="footer__items">
@@ -25,13 +32,19 @@ const Footer = () => {
             <FaDownload color="#52bbe5" size={35} />
           </a>
         </Slide>
-        {/* <Slide top>
-         <div className="sidebar__item">
-         <RiWhatsappLine color='#52bbe5' size={35}/>
-<ReactWhatsapp number="+237677972126" message="Hello Chebesi!!!" />
-<h5 className="sidebar__itemTitle">WhatsApp</h5>
-         </div>
-        </Slide> */}
+
+        <Slide top>
+          <ReactWhatsapp
+            number={number}
+            message={`Hello sir/madame, good day!!`}
+          >
+            <RiWhatsappLine
+              color="#06e651"
+              size={35}
+              className="whatsapp__button"
+            />
+          </ReactWhatsapp>{" "}
+        </Slide>
       </div>
       <Slide top>
         <p className="footer__copyright">
