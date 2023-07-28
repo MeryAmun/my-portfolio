@@ -112,6 +112,11 @@ button:focus-visible {
    text-decoration: none;
    border: none;
    outline: none;
+ 
+}
+
+.sidebar__item > .whatsappPost__button{
+  cursor: pointer;
 }
 @media (prefers-color-scheme: light) {
   :root {

@@ -36,7 +36,7 @@ const Footer = () => {
         <Slide top>
           <ReactWhatsapp
             number={number}
-            message={`Hello sir/madame, good day!!`}
+            message={`Hello Chebesi, Message from your portfolio site`}
           >
             <RiWhatsappLine
               color="#06e651"
@@ -49,7 +49,7 @@ const Footer = () => {
       <Slide top>
         <p className="footer__copyright">
           {" "}
-          All Rights Reserved &copy;Chebesi E. Awah 2023
+          All Rights Reserved &copy; Chebesi E. Awah 2023
         </p>
       </Slide>
     </div>

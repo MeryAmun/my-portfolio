@@ -31,7 +31,7 @@ const Sidebar = () => {
           <div className="sidebar__item">
             <ReactWhatsapp
               number={number}
-              message={`Hello sir/madame, good day!!`}
+              message={`Hello Chebesi, Message from your portfolio site`}
               style={{
                 borderColor: "none",
                 backgroundColor: "none",
