@@ -1,21 +1,77 @@
-
-import { projectsData } from "../data/data";
+import  { useState, useEffect} from 'react'
 import "../styles/projects.css";
 import Spin from "react-reveal/Spin";
 
 const Portfolio = () => {
+  const [activeTab, setActiveTab] = useState("frontend");
+  const [filteredProjects, setFilteredProjects] = useState([]);
+  const [data, setData] = useState([])
+
+
+useEffect(() => {
+  const fetchData = async () => {  
+    await fetch("data.json", {
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+    }).then((response) => (response?.json()
+    )).then((data) => {
+    setData(data?.projects)
+    })
+    }
+    fetchData()
+}, [])
+
+  useEffect(() => {
+   const newData = data?.filter((item) => (
+    item?.type?.match(activeTab)
+   ))
+   setFilteredProjects(newData)
+  }, [activeTab,data])
+  console.log(filteredProjects)
+  
   return (
     <div className="projects">
       <div className="projects__Box">
         <div className="projects__Header">
           <Spin>
           <h3 className="projects__HeaderTitle">
-            My Recent <br /> Projects
+            My Recent  Projects
           </h3>
           </Spin>
         </div>
+        <div className="projects__box">
+        <div className="project__tabs" data-test="tab-container">
+          <button className={
+            activeTab === 'frontend' ? "liveTab" : "btn"
+          } onClick={() => setActiveTab("frontend")}>
+            Front-End
+          </button>
+          <button className={
+            activeTab === 'firebase' ? 'liveTab' : "btn"
+          } onClick={() => setActiveTab("firebase")}>
+            Full Stack (Firebase)
+          </button>
+          <button className={
+            activeTab === 'mern' ? 'liveTab' : "btn"
+          } onClick={() => setActiveTab("mern")}>
+            Full Stack (MERN)
+          </button>
+          <button className={
+            activeTab === 'mobile' ? 'liveTab ': "btn"
+          } onClick={() => setActiveTab("mobile")}>
+           Mobile
+          </button>
+          <button className={
+            activeTab === 'web3' ? 'liveTab ': "btn"
+          } onClick={() => setActiveTab("web3")}>
+           Web3.0
+          </button>
+  
+        </div>
         <div className="container projects__container">
-          {projectsData.map((resource, index) => (
+          {filteredProjects?.map((resource, index) => (
             <Spin right key={index}>
               <article className="project__item">
                 <div className="project__item-image">
@@ -44,6 +100,7 @@ const Portfolio = () => {
               </article>
             </Spin>
           ))}
+        </div>
         </div>
       </div>
     </div>

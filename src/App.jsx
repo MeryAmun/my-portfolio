@@ -8,12 +8,14 @@ import Slide from "react-reveal/Slide";
 function App() {
   const [loading, setLoading] = useState(true);
 
+
   useEffect(() => {
+   
    setInterval(() => {
 setLoading(false)
+
    }, 3000)
   })
-  
   return (
     <div className="app">
       {

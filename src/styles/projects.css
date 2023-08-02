@@ -43,7 +43,7 @@
     /* height: 600px; */
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     
 }
@@ -53,7 +53,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 500px;
+    width: 400px;
     background: var(--color-bg-variant);
     padding: 1rem;
     border-radius: 2rem;
