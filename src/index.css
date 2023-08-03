@@ -159,6 +159,33 @@ align-items: center;
 .sidebar__item > .whatsappPost__button{
   cursor: pointer;
 }
+
+.app__topIcon{
+   
+  position: absolute;
+  bottom: 55px;
+  right: 20px;
+  position: fixed;
+  color: #c2c2d6;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.app__topIcon:hover{
+  color: #0044FF;
+  animation: top-icon-spin 0.15s infinite;
+  /* transform: rotate(0deg); */
+
+}
+
+@keyframes top-icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

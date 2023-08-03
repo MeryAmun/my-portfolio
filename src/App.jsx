@@ -4,6 +4,7 @@ import { Navbar, Sidebar, Footer, Loader } from "./components";
 import { Routes, Route } from "react-router-dom";
 import { Home, Projects } from "./pages";
 import Slide from "react-reveal/Slide";
+import { IoIosArrowDropup } from "react-icons/io";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -39,6 +40,9 @@ setLoading(false)
           </Routes>
         </div>
       </div>
+      <a href="#top">
+        <IoIosArrowDropup size={30} color="#4db5ff" className="app__topIcon" />
+      </a>
       <Footer /></>
         )
       }

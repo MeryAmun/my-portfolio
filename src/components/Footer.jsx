@@ -39,7 +39,7 @@ const Footer = () => {
             message={`Hello Chebesi, Message from your portfolio site`}
           >
             <RiWhatsappLine
-              color="#06e651"
+              color="#52bbe5"
               size={35}
               className="whatsapp__button"
             />
