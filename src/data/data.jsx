@@ -20,7 +20,7 @@ import { FaNodeJs} from "react-icons/fa"
 import { FaVuejs} from "react-icons/fa"
 import { DiMongodb } from "react-icons/di"
 import { DiMysql } from "react-icons/di"
-import { FaLaravel} from "react-icons/fa"
+// import { FaLaravel} from "react-icons/fa"
 import { SiAwsamplify} from "react-icons/si"
 // import ReactWhatsapp from "react-whatsapp";
 
@@ -173,7 +173,7 @@ export const projectsData = [
       "title":"ExpressJS", badge:<SiExpress color="#52bbe5" size={35}/>
     },
     {
-      "title":"ExpressJS", badge:<DiMongodb color="#52bbe5" size={35}/>
+      "title":"MongoDB", badge:<DiMongodb color="#52bbe5" size={35}/>
     },
     {
       "title":"MYSQL", badge:<DiMysql color="#52bbe5" size={35}/>
@@ -184,8 +184,10 @@ export const projectsData = [
     {
       "title":"AWS Amplify", badge:<SiAwsamplify color="#52bbe5" size={35}/>
     },
-    {
-      "title":"Laravel", badge:<FaLaravel color="#52bbe5" size={35}/>
-    },
+    // {
+    //   "title":"Laravel", badge:<FaLaravel color="#52bbe5" size={35}/>
+    // },
     
   ]
+
+

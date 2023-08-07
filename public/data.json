@@ -27,6 +27,14 @@
    
   
       {
+        "image": "/images/noot.jpg",
+        "github": "https://github.com/MeryAmun/figma-react-resaurant-app-2022",
+        "live": "https://figma-react-restaurant-2022.netlify.app/",
+        "title": "Figma to React",
+        "description": "Pets Care Landing Page  created by converting figma design to React",
+        "type": "frontend"
+      },
+      {
         "image": "/images/crypto.jpg",
         "github": "htthttps://github.com/MeryAmun/react-crypto-siteps://github.com",
         "live": "https://crpyto-universe-2021.netlify.app/",
@@ -214,6 +222,14 @@
     },
 
     {
+      "image": "/images/mine.jpg",
+      "github": "",
+      "live": "https://findmehouse2day.netlify.app/",
+      "title": "React, CSS, Material UI, Firebase, i18n",
+      "description": "A real Estate Platform, (My personal Project)",
+      "type": "firebase"
+    },
+    {
       "image": "/images/instagram.jpg",
       "github": "https://github.com/MeryAmun/instagram-clone",
       "live": "https://instagram-clone-e0fb1.web.app/",
@@ -286,6 +302,22 @@
 
       "title": " React Native, AwS amplify, Redux",
       "description": "Amazon Clone",
+      "type": "mobile"
+    },
+    {
+      "image": "/images/uber-eats.jpeg",
+      "github": "https://github.com/MeryAmun/uber-eats-clone-react-native",
+
+      "title": "Expo Yelp API, Redux",
+      "description": "Uber Eats Clone",
+      "type": "mobile"
+    },
+    {
+      "image": "/images/tesla.jpeg",
+      "github": "https://github.com/MeryAmun/rn-teslaClone-2022",
+
+      "title": "Expo, Redux",
+      "description": "Tesla Clone",
       "type": "mobile"
     },
     {
