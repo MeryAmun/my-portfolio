@@ -29,7 +29,7 @@
       {
         "image": "/images/noot.jpg",
         "github": "https://github.com/MeryAmun/figma-react-resaurant-app-2022",
-        "live": "https://figma-react-restaurant-2022.netlify.app/",
+        "live": "https://main--amazing-swan-108b8d.netlify.app/",
         "title": "Figma to React",
         "description": "Pets Care Landing Page  created by converting figma design to React",
         "type": "frontend"
@@ -178,29 +178,12 @@
       "description": " Todo List",
       "type": "frontend"
     },
-
-    {
-      "image": "/images/redux.jpg",
-      "github": "https://github.com/MeryAmun/Redux-shopping-Cart-2022",
-      "live": " https://redux-redux-toolkit-2022.netlify.app/",
-      "title": "React Redux with Redux Toolkit and Firebase",
-      "description": "Shopping Cart",
-      "type": "frontend"
-    },
     {
       "image": "/images/ngo.jpeg",
       "github": "https://github.com/MeryAmun/BEWOCA",
       "live": "https://bewoca.netlify.app/",
       "title": "  HTML5 CSS3 Bootstrap React js Jquery mysql strapi Node js Express",
       "description": "Website for an NGO",
-      "type": "frontend"
-    },
-    {
-      "image": "/images/material.png",
-      "github": "https://github.com",
-      "live": "https://brightluxphotography.com/home/",
-      "title": "  WordPress",
-      "description": "Photography Site",
       "type": "frontend"
     },
     
@@ -261,6 +244,14 @@
         "description": "  Pokemon World",
         "type": "firebase"
       },
+      {
+        "image": "/images/redux.jpg",
+        "github": "https://github.com/MeryAmun/Redux-shopping-Cart-2022",
+        "live": " https://redux-redux-toolkit-2022.netlify.app/",
+        "title": "React Redux with Redux Toolkit and Firebase",
+        "description": "Shopping Cart",
+        "type": "firebase"
+      },
 
     {
       "image": "/images/virtual.jpg",
@@ -302,6 +293,14 @@
 
       "title": " React Native, AwS amplify, Redux",
       "description": "Amazon Clone",
+      "type": "mobile"
+    },
+    {
+      "image": "/images/nike.jpg",
+      "github": "https://github.com/MeryAmun/nike-app-mobile",
+
+      "title": " Expo, Redux Toolkit",
+      "description": "Nike App Clone",
       "type": "mobile"
     },
     {
