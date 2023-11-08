@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "../styles/sidebar.css";
 import { Link } from "react-router-dom";
-import { sidebarInfo } from "../data/data.jsx";
+import { sidebarInfo } from "../data/data.js";
 import { cv } from "../assets";
 import { FaDownload } from "react-icons/fa";
 import Spin from "react-reveal/Spin";

@@ -1,6 +1,14 @@
 {
   "projects": [
     {
+      "image": "images/new-dashboard.jpg",
+      "github": "https://github.com/MeryAmun/dashboard-task",
+      "live": "https://dashboard-3a622.web.app/",
+      "title": "React,Bootstrap,Redux,CSS3",
+      "description": "Modern System Management Dashboard",
+      "type": "frontend"
+    },
+    {
       "image": "images/google2.jpeg",
       "github": "https://github.com/MeryAmun/google-clone",
       "live": "https://mi-google-clone.netlify.app/",
