@@ -17,6 +17,15 @@
       "type": "frontend"
     },
     {
+      "image": "/images/dashboard.jpg",
+      "github": "https://github.com/MeryAmun/admin-dashboard-2022",
+      "live": "https://react-admin-dashboard-2022.netlify.app/",
+      "title": "React, Sync fusion, Tailwind",
+      "description": "A React Admin Dashboard",
+      "type": "frontend"
+    },
+    
+    {
       "image": "images/google2.jpeg",
       "github": "https://github.com/MeryAmun/google-clone",
       "live": "https://mi-google-clone.netlify.app/",
@@ -40,6 +49,7 @@
         "description": "A Covid-19 Tracker Web App",
         "type": "frontend"
       },
+      
     {
         "image": "/images/ux.jpg",
         "github": "https://github.com/MeryAmun/figma-react-resaurant-app-2022",
@@ -68,14 +78,7 @@
         "type": "frontend"
       },
    
-    {
-      "image": "/images/dashboard.jpg",
-      "github": "https://github.com/MeryAmun/admin-dashboard-2022",
-      "live": "https://react-admin-dashboard-2022.netlify.app/",
-      "title": "React, Sync fusion, Tailwind",
-      "description": "A React Admin Dashboard",
-      "type": "frontend"
-    },
+    
     {
         "image": "/images/workout.jpg",
         "github": "https://github.com/MeryAmun/workout-app-2022",
