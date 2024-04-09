@@ -5,6 +5,7 @@ import { AiFillHtml5 } from "react-icons/ai"
 import { SiCss3 } from "react-icons/si"
 import { SiJavascript } from "react-icons/si"
 import { GrReactjs } from "react-icons/gr"
+import { GrNext } from "react-icons/gr"
 import { SiRedux } from "react-icons/si"
 import { TbBrandReactNative} from "react-icons/tb"
 import { SiMaterialdesign } from "react-icons/si"
@@ -61,6 +62,9 @@ import { SiAwsamplify} from "react-icons/si"
     },
     {
       "title":"React", badge:<GrReactjs color="#52bbe5" size={35}/>
+    },
+    {
+      "title":"Next", badge:<GrNext color="#52bbe5" size={35}/>
     },
     {
       "title":"Redux", badge:<SiRedux color="#52bbe5" size={35}/>

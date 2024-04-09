@@ -4,7 +4,7 @@
       "image": "images/sarash.jpg",
       "github": "",
       "live": "https://sarash-85126.web.app/",
-      "title": "React,TailwindCss,CSS3",
+      "title": "Next,TailwindCss,CSS3",
       "description": "Business Website",
       "type": "frontend"
     },
@@ -228,7 +228,7 @@
     {
       "image": "/images/mine.jpg",
       "github": "",
-      "live": "https://findmehouse2day.netlify.app/",
+      "live": "https://homescraper.com/",
       "title": "React, CSS, Material UI, Firebase, i18n",
       "description": "A real Estate Platform, (My personal Project)",
       "type": "firebase"
