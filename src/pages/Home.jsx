@@ -1,18 +1,16 @@
 import "../styles/home.css";
 import { backendSkills, frontEndSkills } from "../data/data";
-import Slide from "react-reveal/Slide";
-import Tada from "react-reveal/Tada";
-import Spin from "react-reveal/Spin";
+import { Fade,Slide,Flip } from "react-awesome-reveal";
 
 const Home = () => {
   return (
     <div className="home">
       <div className="home__Header">
-        <Tada>
+      <Fade delay={1e3} cascade damping={1e-1}>
           <h3 className="home__HeaderTitle">
-            Hi! <br /> Am Chebesi EdyLionel Awah
+            Hi! Am Chebesi EdyLionel Awah
           </h3>
-        </Tada>
+        </Fade>
       </div>
       <div className="home__body">
         <Slide bottom>
@@ -33,11 +31,11 @@ const Home = () => {
         </Slide>
       </div>
       <div className="home__skillsContainer">
-        <Spin>
+        <Flip>
           <div className="home__skillsHeader">
             <h3 className="home__skillsHeaderTitle">My Skills</h3>
           </div>
-        </Spin>
+        </Flip>
         <div className="home__skillsBox">
           <div className="home__skillsType">
             <div className="home__skillsHeader">
@@ -45,12 +43,12 @@ const Home = () => {
             </div>
             <div className="home__skills">
               {frontEndSkills.map(({ title, badge }, index) => (
-                <Spin key={index}>
+                <Flip key={index}>
                   <div className="home__skill">
                     <div>{badge}</div>
                     <h5 className="home__skillTitle">{title}</h5>
                   </div>
-                </Spin>
+                </Flip>
               ))}
             </div>
             {/* {backendSkills.map(({ title, badge }, index) => (
@@ -66,12 +64,12 @@ const Home = () => {
             </div>
             <div className="home__skills">
               {backendSkills.map(({ title, badge }, index) => (
-                <Spin key={index}>
+                <Flip key={index}>
                   <div className="home__skill">
                     <div>{badge}</div>
                     <h5 className="home__skillTitle">{title}</h5>
                   </div>
-                </Spin>
+                </Flip>
               ))}
             </div>
           </div>

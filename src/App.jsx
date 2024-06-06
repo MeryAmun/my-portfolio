@@ -3,7 +3,7 @@ import "./App.css";
 import { Navbar, Sidebar, Footer, Loader } from "./components";
 import { Routes, Route } from "react-router-dom";
 import { Home, Projects } from "./pages";
-import Slide from "react-reveal/Slide";
+import { Slide } from "react-awesome-reveal";
 import { IoIosArrowDropup } from "react-icons/io";
 import useScrollPosition from "@react-hook/window-scroll";
 

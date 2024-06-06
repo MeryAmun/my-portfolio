@@ -1,6 +1,14 @@
 {
   "projects": [
     {
+      "image": "images/slide6.jpg",
+      "github": "",
+      "live": "https://pccbeltsville.org",
+      "title": "React,Firebase,CSS3",
+      "description": "Church website",
+      "type": "frontend"
+    },
+    {
       "image": "images/sarash.jpg",
       "github": "",
       "live": "https://sarash-85126.web.app/",

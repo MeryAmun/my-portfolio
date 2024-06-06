@@ -1,6 +1,6 @@
 import  { useState, useEffect} from 'react'
 import "../styles/projects.css";
-import Spin from "react-reveal/Spin";
+import { Flip } from "react-awesome-reveal";
 
 const Portfolio = () => {
   const [activeTab, setActiveTab] = useState("frontend");
@@ -35,11 +35,11 @@ useEffect(() => {
     <div className="projects">
       <div className="projects__Box">
         <div className="projects__Header">
-          <Spin>
+          <Flip>
           <h3 className="projects__HeaderTitle">
             My Recent  Projects
           </h3>
-          </Spin>
+          </Flip>
         </div>
         <div className="projects__box">
         <div className="project__tabs" data-test="tab-container">
@@ -72,14 +72,16 @@ useEffect(() => {
         </div>
         <div className="container projects__container">
           {filteredProjects?.map((resource, index) => (
-            <Spin right key={index}>
+            <Flip right key={index}>
               <article className="project__item">
                 <div className="project__item-image">
                   <img src={resource.image} alt="" />
                 </div>
                 <h3>{resource.title}</h3>
                 <div className="project__item-cta">
-                  <a
+                  {
+                    resource.github !== "" && (
+                      <a
                     href={resource.github}
                     className="btn"
                     target="_blank"
@@ -87,6 +89,8 @@ useEffect(() => {
                   >
                     GitHub
                   </a>
+                    )
+                  }
                   <a
                     href={resource.live}
                     className="btn btn-primary"
@@ -98,7 +102,7 @@ useEffect(() => {
                 </div>
                 <p className="text-light">{resource.description}</p>
               </article>
-            </Spin>
+            </Flip>
           ))}
         </div>
         </div>

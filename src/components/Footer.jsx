@@ -4,8 +4,7 @@ import { sidebarInfo } from "../data/data";
 import { Link } from "react-router-dom";
 import { cv } from "../assets";
 import { FaDownload } from "react-icons/fa";
-import Slide from "react-reveal/Slide";
-import Spin from "react-reveal/Spin";
+import { Slide,Flip } from "react-awesome-reveal";
 import { RiWhatsappLine } from "react-icons/ri";
 import ReactWhatsapp from "react-whatsapp";
 
@@ -21,11 +20,11 @@ const Footer = () => {
     <div className="footer">
       <div className="footer__items">
         {sidebarInfo.map(({ link, icon }, index) => (
-          <Spin key={index}>
+          <Flip key={index}>
             <Link to={link} className="footer__item">
               <h5>{icon}</h5>
             </Link>
-          </Spin>
+          </Flip>
         ))}
         <Slide top>
           <a href={cv} download className="sidebar__item" rel="noreferrer">
