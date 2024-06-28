@@ -1,11 +1,11 @@
 {
   "projects": [
     {
-      "image": "images/slide6.jpg",
-      "github": "",
-      "live": "https://pccbeltsville.org",
-      "title": "React,Firebase,CSS3",
-      "description": "Church website",
+      "image": "/images/covid.jpg",
+      "github": "https://github.com/MeryAmun/covid-tracker",
+      "live": "https://covid-tracker-new-web.netlify.app/",
+      "title": "React, CSS, Material UI, Disease.sh open API for disease-related statistics",
+      "description": "A Covid-19 Tracker Web App",
       "type": "frontend"
     },
     {
@@ -49,12 +49,13 @@
       "description": "A YouTube clone",
       "type": "frontend"
     },
-    {
-        "image": "/images/covid.jpg",
-        "github": "https://github.com/MeryAmun/covid-tracker",
-        "live": "https://covid-tracker-new-web.netlify.app/",
-        "title": "React, CSS, Material UI, Disease.sh open API for disease-related statistics",
-        "description": "A Covid-19 Tracker Web App",
+    
+      {
+        "image": "images/slide6.jpg",
+        "github": "",
+        "live": "https://pccbeltsville.org",
+        "title": "React,Firebase,CSS3",
+        "description": "Church website",
         "type": "frontend"
       },
       
