@@ -250,39 +250,7 @@
       "description": "An Instagram Clone",
       "type": "firebase"
     },
-    {
-      "image": "/images/discord.jpg",
-      "github": "https://github.com/MeryAmun/discord-clone",
-      "live": "https://discord-clone-ea63c.web.app",
-      "title": "React, CSS, Material UI, Firebase",
-      "description": "Discord Clone",
-      "type": "firebase"
-    },
-    {
-      "image": "/images/tiktok.jpg",
-      "github": "https://github.com/MeryAmun/tiktok-clone",
-      "live": "https://tiktok-clone-7fe70.web.app",
-      "title": "React, CSS, Material UI, Firebase",
-      "description": "Tik Tok Clone",
-      "type": "firebase"
-    },
-    {
-        "image": "/images/poke.jpg",
-        "github": "https://github.com/MeryAmun/Yosemitelabs",
-        "live": "https://yosemitelabs.netlify.app",
-        "title": " React,Firebase",
-        "description": "  Pokemon World",
-        "type": "firebase"
-      },
-      {
-        "image": "/images/redux.jpg",
-        "github": "https://github.com/MeryAmun/Redux-shopping-Cart-2022",
-        "live": " https://redux-redux-toolkit-2022.netlify.app/",
-        "title": "React Redux with Redux Toolkit and Firebase",
-        "description": "Shopping Cart",
-        "type": "firebase"
-      },
-
+    
     {
       "image": "/images/virtual.jpg",
       "github": "#",
