@@ -9,6 +9,22 @@
       "type": "frontend"
     },
     {
+      "image": "/images/moda.png",
+      "github": "",
+      "live": "https://modaonlinestore.com",
+      "title": "React, tailwind CSS, Paypal integration,Node js,Firebase",
+      "description": "E commerce Website",
+      "type": "firebase"
+    },
+    {
+      "image": "/images/moda.png",
+      "github": "",
+      "live": "https://modaonlinestore.com",
+      "title": "React, tailwind CSS, Paypal SDK, Node js,Firebase",
+      "description": "E commerce Website with Paypal integration",
+      "type": "mern"
+    },
+    {
       "image": "images/sarash.jpg",
       "github": "",
       "live": "https://sarash-85126.web.app/",
